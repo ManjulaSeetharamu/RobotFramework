@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210708 10:00:27.549" rpa="false" schemaversion="2">
+<suite id="s1" name="Selenium Tests" source="C:\Users\mtseetharamu\Documents\RobotProject\Selenium Suite\selenium_tests.robot">
+<test id="s1-t1" name="TC4 MultipleWindow">
+<kw name="Append To Environment Variable" library="OperatingSystem">
+<arg>Path</arg>
+<arg>C:\\Program Files (x86)\\Common Files\\chromedriver_win32</arg>
+<doc>Appends given ``values`` to environment variable ``name``.</doc>
+<msg timestamp="20210708 10:00:27.840" level="INFO">Environment variable 'Path' set to value 'C:\Users\mtseetharamu\Documents\RobotProject\venv\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files (x86)\Webex\Plugins;C:\Program Files\Git\cmd;C:\Users\mtseetharamu\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mtseetharamu\AppData\Local\Programs\Python\Python39\;C:\Users\mtseetharamu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Common Files\chromedriver_win32'.</msg>
+<status status="PASS" starttime="20210708 10:00:27.840" endtime="20210708 10:00:27.840"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=https://db4free.org/</arg>
+<arg>browser=gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210708 10:00:27.841" level="INFO">Opening browser 'gc' to base url 'https://db4free.org/'.</msg>
+<status status="PASS" starttime="20210708 10:00:27.841" endtime="20210708 10:00:31.859"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//a[@href="/phpMyAdmin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210708 10:00:31.861" level="INFO">Clicking element '//a[@href="/phpMyAdmin"]'.</msg>
+<status status="PASS" starttime="20210708 10:00:31.860" endtime="20210708 10:00:32.020"/>
+</kw>
+<status status="PASS" starttime="20210708 10:00:27.837" endtime="20210708 10:00:32.022"/>
+</test>
+<status status="PASS" starttime="20210708 10:00:27.551" endtime="20210708 10:00:32.025"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Selenium Tests">Selenium Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
